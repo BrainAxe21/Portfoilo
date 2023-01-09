@@ -1,0 +1,133 @@
+/* Navigation Menu CSS */
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    font-family: "consolas", sans-serif;
+}
+nav .navbar{
+    width: 90%;
+    margin: 30px;
+    padding: 7px;
+    display: flex;
+    background: #232423;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "consolas", sans-serif;
+}
+nav .navbar .menu{
+    display: flex;
+}
+nav .navbar .logo a{
+    font-size: 40px;
+    font-weight: 500;
+    color: #4d8560;
+    text-decoration: none;
+}
+nav .menu a{
+    font-size: 22px;
+    font-weight: 500;
+    color: #779182;
+    text-decoration: none;
+    font-family: "consolas", sans-serif;
+}
+nav .navbar .menu li{
+    margin: 30px;
+    list-style: none;
+}
+.navbar .menu li{
+    font-size: 18px;
+    font-weight: 500;
+    color: #779182;
+}
+.navbar .media-icons a{
+    font-size: 18px;
+    margin: 6px;
+    color: #779182;
+    text-decoration: none;
+}
+
+/* Home Section CSS */
+.home{
+    height: 100vh;
+    width: 100%;
+    background: #0f0f0f;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .home-content{
+    height: 100%;
+    width: 90%;
+    color: #c3c9c1;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text .text-one{
+    font-size: 25px;
+    margin: 10px;
+    font-family: "consolas", sans-serif;
+}
+.home .text .text-two{
+    font-size: 55px;
+    margin: 10px;
+    font-family: "consolas", sans-serif;
+}
+.home .text .text-three{
+    font-size: 30px;
+    margin: 10px;
+    font-family: "consolas", sans-serif;
+}
+.text-three a{
+    margin: 4px;
+    color: #c3c9c1;
+    text-decoration: none;
+}
+.myphoto img{
+    width: 600px;
+    height: 600px;
+    float: right;
+    margin: 10px;
+    border-radius: 50%;
+}
+.home .button{
+    margin: 14px;
+    text-decoration: none;
+}
+.home .button button{
+    outline: none;
+    color: #0f0f0f;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "consolas", sans-serif;
+    padding: 8px 16px;
+    background: #779182;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.4 ease;
+}
+.home .button a{
+    color: #0f0f0f;
+    text-decoration: none;
+}
+.home-content h2{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: "consolas", sans-serif;
+}
+.home-content p{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "consolas", sans-serif;
+}
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "consolas", sans-serif;
+}
+.home-content a{
+    display: flex;
+}
